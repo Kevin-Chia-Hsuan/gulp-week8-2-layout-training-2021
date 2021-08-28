@@ -1,0 +1,22 @@
+.btn-doyoga-primary {
+  background-color: $success;
+  color: $primary;
+  border-radius: 5px;
+  &:hover {
+    background-color: $primary;
+    color: $light;
+  }
+}
+.btn-doyoga-secondary {
+  background-color: $secondary;
+  color: $light;
+  border-radius: 5px;
+  &:hover {
+    background-color: $primary;
+    color: $light;
+  }
+}
+.btn-active {
+  background-color: $primary;
+  color: $light;
+}

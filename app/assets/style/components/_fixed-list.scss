@@ -1,0 +1,17 @@
+.fixed-list {
+  z-index: 100;
+  text-decoration: none;
+  position: fixed; /*圓形圖示*/
+  display: flex; /*^圖示*/
+  flex-direction: column;
+  justify-content: center; /*^圖示置中*/
+  align-items: center; /*^圖示置中*/
+  right: 16px;
+  bottom: 50%;
+  a {
+    transition: 1s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}

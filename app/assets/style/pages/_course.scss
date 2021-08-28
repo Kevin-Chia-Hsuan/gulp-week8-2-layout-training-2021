@@ -1,0 +1,35 @@
+.introduce-img {
+  @include size(100%, 341px);
+  object-fit: cover;
+  @include small {
+    @include size(100%, 218px);
+    object-fit: cover;
+  }
+}
+.course-img {
+  @include size(100%, 196px);
+  object-fit: cover;
+  border-radius: 16px;
+}
+.teachers-list {
+  .swiper-slide,
+  li {
+    @include size(350px, 418px);
+    @include small {
+      @include size(350px, 418px);
+    }
+    img {
+      @include size(95px, 95px);
+    }
+  }
+}
+.courseBasicModal {
+  img {
+    @include size(100%, 418px);
+    object-fit: cover;
+    @include small {
+      @include size(165px, 165px);
+      @include center;
+    }
+  }
+}
