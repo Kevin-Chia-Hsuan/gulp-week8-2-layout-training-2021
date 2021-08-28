@@ -19511,6 +19511,20 @@ a {
   border: 4px solid #c0a4a5;
 }
 
+.shadow-secondary {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.shadow-secondary:hover {
+  -webkit-transform: scale(1.02);
+      -ms-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 2px 0px 1px #c0a4a5;
+          box-shadow: 2px 2px 0px 1px #c0a4a5;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
